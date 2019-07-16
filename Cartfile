@@ -1,0 +1,4 @@
+github "realm/realm-cocoa"
+github "ReactiveX/RxSwift"
+github "RxSwiftCommunity/RxGesture"
+github "RxSwiftCommunity/RxSwiftExt"
