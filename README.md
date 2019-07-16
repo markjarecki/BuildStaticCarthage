@@ -11,17 +11,18 @@ https://medium.com/@markjarecki/building-static-frameworks-under-carthage-ed010c
 ## Requirements
 
 XCode 10.2
+Carthage
 
 ## Installation
 
 1. `git clone https://github.com/markjarecki/BuildStaticCarthage.git`
 2. `cd BuildStaticCarthage`
-3. ` ` 
-
-
-
-3. Open BuildStaticCarthage.xcworkspace in Xcode
-4. Build the app and run
+3. `carthage update - no-build` 
+4. Be patient for the download to finish
+5. `bash build-static-carthage.sh -d realm-cocoa RxSwift RxGesture RxSwiftExt -p ios`
+6. Go and make a cup of nice coffee - this will take a while
+7. Open BuildStaticCarthage.xcworkspace in Xcode
+8. Build the app and run
 
 ## Caveats
 
