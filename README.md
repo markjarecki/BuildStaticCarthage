@@ -11,6 +11,7 @@ https://medium.com/@markjarecki/building-static-frameworks-under-carthage-ed010c
 ## Requirements
 
 XCode 10.2
+
 Carthage
 
 ## Installation
